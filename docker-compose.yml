@@ -1,0 +1,13 @@
+version: "3"
+services:
+  python:
+    build: .
+    tty: true
+    volumes:
+      - .:/usr/src/app
+  code:
+    image: codercom/code-server
+    ports:
+      - "8040:8080"
+    volumes:
+      - .:/home/coder/project
