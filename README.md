@@ -2,11 +2,12 @@
 
 ## コマンド
 コマンドに応じたリストを表示する
-'/members': メンバーのリスト
-'/roles': 役職のリスト
-'/text_channels': テキストチャンネルのリスト
-'/voice_channels': ボイスチャンネルのリスト
-'/category_channels': カテゴリチャンネルのリスト
+
+- '/members': メンバーのリスト
+- '/roles': 役職のリスト
+- '/text_channels': テキストチャンネルのリスト
+- '/voice_channels': ボイスチャンネルのリスト
+- '/category_channels': カテゴリチャンネルのリスト
 
 ## リアクション通知
 messageにリアクションをすると
