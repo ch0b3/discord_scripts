@@ -13,5 +13,6 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN python -m pip install numpy
 RUN python -m pip install discord.py
+RUN python -m pip install os
 
 CMD ["/bin/sh"]

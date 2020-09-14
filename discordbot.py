@@ -1,6 +1,7 @@
 import discord
+import os
 
-TOKEN = 'NzU0NTg5NzUyNzk5Mzk1ODUx.X128eA.Kdf7vIXUTwABJ9-o8UDHusgeh1E'
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
